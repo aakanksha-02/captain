@@ -1,0 +1,18 @@
+{
+	"log.level":"info",
+	"server.http.port":7072,
+	"log.level.low":"true",
+	"tag":"mymachine",
+	"config.hash.prefix":"H:CAPTAIN:",
+	"projectx.hash.prefix":"H:PROJECTX:",
+	"db.redis.server.mlm":"127.0.0.1",
+	"db.port.no":6379,
+	"db.server.auth":"redis@123Azure",
+	"db.server.connect.timeout":5000,
+	"output.type":1,
+	"output.monitor.topic":"monitor",
+	"output.badreq.topic":"monitor",
+	"kafka.bootstrap.servers":"localhost:9092",
+	"kafka.key.serializer":"org.apache.kafka.common.serialization.StringSerializer",
+	"kafka.value.serializer":"org.apache.kafka.common.serialization.StringSerializer"
+}
